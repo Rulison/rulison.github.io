@@ -1,0 +1,8 @@
+    </div>
+    <footer style="border-width: 1px; border-style: solid; border-color: #d7d7d7; background-color: #f0f0f0; padding-top: 20px; margin-top: 30px; padding-bottom: 10px; " class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
+  </body>
+</html>
