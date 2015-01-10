@@ -16,8 +16,7 @@
   </head>
 
   <body  >
-	<div style="align: center; background: url('./berkeley.jpg'); background-size: 100% 100%;
-    background-repeat: no-repeat; background-attachment: fixed; height: 120vh;">
+	<div id="everything" style="align: center; background: url('./berkeley.jpg'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; height: 100vh;">
     <nav style="opacity: 0.6" class="navbar navbar-default">
   		<div class="container-fluid">
     		<!-- Brand and toggle get grouped for better mobile display -->
