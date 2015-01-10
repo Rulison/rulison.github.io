@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div style="margin-left: auto; margin-right: auto;">
+<div >
 	<script src = "jquery.min.js"></script>
   <script src=script.js></script>
   <div style="border-radius: 1%; color: white; text-align: center; background: url('footer_lodyas.png'); height: auto; width: 100vh; padding-bottom: 20px">
