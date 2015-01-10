@@ -8,18 +8,13 @@
 
     <link href="/css/bootstrap.css" rel="stylesheet">
 
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
 
-  <body  style="opacity: 0.9; vertical-align: center; background: url('./berkeley.jpg'); background-size: 200vh auto; background-repeat: no-repeat; background-attachment: fixed; height: 200vh;">
+  <body  style="opacity: 0.9; vertical-align: center; background: url('../images/berkeley.jpg'); background-size: 200vh auto; background-repeat: no-repeat; background-attachment: fixed; height: 200vh;">
 	<div id="everything"  >
     <nav style="opacity: 0.6" class="navbar navbar-default">
   		<div class="container-fluid">
-    		<!-- Brand and toggle get grouped for better mobile display -->
+    		<!-- From bootstrap demo, not sure what it does but it seems important-->
     		<div class="navbar-header">
       			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         			<span class="sr-only">Toggle navigation</span>
@@ -34,17 +29,15 @@
     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       			<ul class="nav navbar-nav">
         			<li><a href="#">Music Blog <span class="sr-only">(current)</span></a></li>
-        			<li><a href="/cs/">CS Portfolio</a></li>
-							<li><a href="/resume/">Resume</a></li>
+        			<li><a href="/cs/">CS Blog</a></li>
+							<li><a href="/resume/">CS Portfolio and Resume</a></li>
+
+      			</ul>
+  	        <ul class="nav navbar-nav navbar-right">
 							<li><a href="mailto:rulison@berkeley.edu">Email</a></li>
 							<li><a href="https://github.com/Rulison">Github</a></li>
 							<li><a href="http://www.linkedin.com/in/rulison">LinkedIn</a><li>
 							<li><a href="http://www.facebook.com/TheRulison">Facebook</a><li>
-      			</ul>
-  	        <ul class="nav navbar-nav navbar-right">
-
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">About This Site</a></li>
 
             </ul>
 
@@ -59,49 +52,63 @@
 <div class="row-fluid">
     <div class="col-md-12">
         <div >
+
 	<script src = "jquery.min.js"></script>
   <script src=script.js></script>
-  <div style="border-radius: 1%; color: white; text-align: center; background: url('footer_lodyas.png'); height: auto;  padding-bottom: 20px">
-			<img style="vertical-align: left; border-radius: 50%; padding-top: 30px" src="prof.jpg">
+
+  <div style="border-radius: 1%; color: white; text-align: center; background: url('images/footer_lodyas.png'); height: auto;  padding-bottom: 20px">
+
+			<img style="vertical-align: left; border-radius: 50%; padding-top: 30px" src="images/prof.jpg">
+
       <h1 id="name">Jared Rulison</h1>
       <p>Software Engineer and Musician</p>
+
 			<hr style="border-top: 1px solid #BABABA">
+
 			<div id="me-about">
 				<h2>Hi!</h2>
 				<div id="me-about-text" style="display: none">
+
 					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
-						I'm Jared.  I'm studying Electrical Engineering and Computer Science (EECS) at UC Berkeley.  I like <a href="/cs">making things</a>, challenging problems, algorithms, and Super Smash Bros.
+						I'm Jared.  I'm studying Electrical Engineering and Computer Science (EECS) at UC Berkeley.  I like <a href="/cs">making things</a>, algorithms, challenging problems, and Super Smash Bros.
 					</p>
+
 					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
 						I'm also a singer, guitarist, pianist, and amateur musicologist.  You can find my music blog, as well as my favorite bands, <a href="/music/">here</a>! 
 					</p>
+
 					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
 						You can find CS stuff I've done <a href="/cs">here</a> and my resume <a href="/resume/">here.</a>
 					</p>
 				</div>
 			</div>
+
 			<hr style="border-top: 1px solid #BABABA">
+
 			<div id="site-about">
 				<h2>About This Site</h2>
 				<p id="site-about-text" style="display: none; padding-left: 20vh; padding-right: 20vh; text-align: left">
-					This site was thrown together with Jekyll, a static blog generator, and styled with Bootstrap.  You can find the source <a href="https://github.com/Rulison/rulison.github.io/"> here</a>.  Based on Andrew Munsell's wonderful, though a bit oudated, <a href="https://www.andrewmunsell.com/	tutorials/jekyll-by-example">tutorial</a>.
+					This site was thrown together with Jekyll, a static blog generator, and styled with Bootstrap.  You can find the source <a href="https://github.com/Rulison/rulison.github.io/"> here</a>.
+					  Based on Andrew Munsell's wonderful, though a bit oudated, <a href="https://www.andrewmunsell.com/	tutorials/jekyll-by-example">tutorial</a>.
 				</p>
 			</div>
+
 			<hr style="border-top: 1px solid #BABABA">
+
 			<div id="contact" >
 				<h2>Contact Me</h2>
 				<p id="contact-specifics" style="display: none; padding-bottom: 20px; padding-left: 20vh; padding-right: 20vh; text-align: center">
 					<a  href="http://www.facebook.com/TheRulison">
-						<img src="facebook24.png">
+						<img src="images/facebook24.png">
 					</a>
 					<a href="https://github.com/Rulison">
-						<img src="github19.png">
+						<img src="images/github19.png">
 					</a>
 					<a href="http://www.linkedin.com/in/rulison">
-						<img src="linkedin12.png">
+						<img src="images/linkedin12.png">
 					</a>
 					<a href="mailto:rulison@berkeley.edu">
-						<img src="email20.png">
+						<img src="images/email20.png">
 					</a>
 				</p>
 			</div>
