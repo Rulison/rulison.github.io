@@ -15,9 +15,10 @@
     <![endif]-->
   </head>
 
-  <body>
-
-    <nav class="navbar navbar-default">
+  <body  >
+	<div style="align: center; background: url('./berkeley.jpg'); background-size: 100% 100%;
+    background-repeat: no-repeat; background-attachment: fixed; height: 100vh;">
+    <nav style="opacity: 0.6" class="navbar navbar-default">
   		<div class="container-fluid">
     		<!-- Brand and toggle get grouped for better mobile display -->
     		<div class="navbar-header">
@@ -33,7 +34,7 @@
     		<!-- Collect the nav links, forms, and other content for toggling -->
     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       			<ul class="nav navbar-nav">
-        			<li><a href="/music/">Music Blog</a></li>
+        			<li class="active"><a href="#">Music Blog <span class="sr-only">(current)</span></a></li>
         			<li><a href="/cs/">CS Portfolio</a></li>
 							<li><a href="/resume/">Resume</a></li>
 							<li><a href="mailto:rulison@berkeley.edu">Email</a></li>
@@ -53,110 +54,64 @@
   		</div><!-- /.container-fluid -->
 	</nav>
 
-    <div class="container">
+  <div class="container">
 
 
 <div class="row-fluid">
     <div class="col-md-12">
         <div>
-  <div style="text-align: center; background-color: white; border-bottom: 1px solid BLACK" class="jumbotron" >
-      <img style="border-radius: 50%" src="prof.jpg">
-      <h1>Jared Rulison</h>
+	<script src = "jquery.min.js"></script>
+  <script src=script.js></script>
+  <div style="border-radius: 1%; color: white; text-align: center; background: url('footer_lodyas.png'); height: 80vh; width: 100vh;">
+			<img style="vertical-align: left; border-radius: 50%; padding-top: 30px" src="prof.jpg">
+      <h1 id="name">Jared Rulison</h1>
       <p>Software Engineer and Musician</p>
+			<hr style="border-top: 1px solid #BABABA">
+			<div id="me-about">
+				<h2>Hi!</h2>
+				<div id="me-about-text" style="display: none">
+					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
+						I'm Jared.  I'm studying Electrical Engineering and Computer Science (EECS) major at UC Berkeley.  I like <a href="/cs">making things</a>, challenging problems, algorithms, and Super Smash Bros.
+					</p>
+					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
+						I'm also a singer, guitarist, pianist, and amateur musicologist.  You can find my music blog, as well as my favorite bands, <a href="/music/">here</a>!  More words for the sake of testing the padding.
+					</p>
+					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
+						You can find CS stuff I've done <a href="/cs">here</a> and my resume <a href="/resume/">here.</a>
+					</p>
+				</div>
+			</div>
+			<hr style="border-top: 1px solid #BABABA">
+			<div id="site-about">
+				<h2>About This Site</h2>
+				<p id="site-about-text" style="display: none; padding-left: 20vh; padding-right: 20vh; text-align: left">
+					This site was thrown together with Jekyll, a static blog generator, and styled with Bootstrap.  You can find the source <a href="https://github.com/Rulison/rulison.github.io/"> here</a>.  Based on Andrew Munsell's wonderful, though a bit oudated, <a href="https://www.andrewmunsell.com/	tutorials/jekyll-by-example">tutorial</a>.
+				</p>
+			</div>
+			<hr style="border-top: 1px solid #BABABA">
+			<div id="contact" >
+				<h2>Contact Me</h2>
+				<p id="contact-specifics" style="display: none; padding-bottom: 20px; padding-left: 20vh; padding-right: 20vh; text-align: center">
+					<img src="facebook24.png">
+					<img src="github19.png">
+					<img src="linkedin12.png">
+					<img src="email20.png">
+				</p>
+			</div>
+		  <hr style="border-top: 1px solid #BABABA">
   </div>
-  <div style="text-align: left" class="col-md-6">
-    <h2> Computer Science </h2>
-    
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-           <h3>space shooter</h3>
-           <h4>03 January 2015</h4>
-           <h4> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8">...</h4>
-           <p>
-             <a href="/cs/2015/01/03/Space_Shooter/">Read Post</a>
-           </p>
-        </div>
-      </div>
-    
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-           <h3>Roll-a-ball</h3>
-           <h4>12 December 2014</h4>
-           <h4> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8">...</h4>
-           <p>
-             <a href="/cs/2014/12/12/hooray%20(copy)/">Read Post</a>
-           </p>
-        </div>
-      </div>
-    
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-           <h3>Consectetur Elit</h3>
-           <h4>12 December 2014</h4>
-           <h4> <p>Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit ac...</h4>
-           <p>
-             <a href="/cs/2014/12/12/hooray/">Read Post</a>
-           </p>
-        </div>
-      </div>
-    
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-           <h3>Bootstrap</h3>
-           <h4>11 December 2014</h4>
-           <h4> <p>Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit ac...</h4>
-           <p>
-             <a href="/cs/2014/12/11/bootstrap/">Read Post</a>
-           </p>
-        </div>
-      </div>
-    
-  </div>
-
-  <div style="text-align: left" class="col-md-6">
-    <h2> Music </h2>
-      
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-          <h3>Katy</h3>
-         <h4><p>Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit ac...</h4>
-         <p>
-           <a href="/music/2015/11/02/katy%20(copy)/">Read Post</a>
-         </p>
-        </div>
-      </div>
-      
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-          <h3>Perry</h3>
-         <h4><p>Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit ac...</h4>
-         <p>
-           <a href="/music/2015/11/01/perry/">Read Post</a>
-         </p>
-        </div>
-      </div>
-      
-      <div style="text-align: left" class="row">
-        <div class="col-md-6">
-          <h3>Lorem Ipsum Dolor Sit Amet</h3>
-         <h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate....</h4>
-         <p>
-           <a href="/music/2013/03/08/best-spring-recipies/">Read Post</a>
-         </p>
-        </div>
-      </div>
-      
-  </div>
+  
 </div>
 
     </div>
 </div>
     </div>
-    <footer style="border-width: 1px; border-style: solid; border-color: #d7d7d7; background-color: #f0f0f0; padding-top: 20px; margin-top: 30px; padding-bottom: 10px; " class="footer">
-      <div class="container">
+    <footer style="text-align: center; border-width: 1px; border-style: solid; border-color: #d7d7d7; background-color: #f0f0f0; position: absolute; bottom: 0; opacity: 0.6; width: 100%; height: 70px" class="footer">
+      <div>
         <p class="text-muted">© 2015 Jared Rulison</p>
       </div>
     </footer>
+  </div>
   </body>
 </html>
 
