@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div>
+<div style="margin-left: auto; margin-right: auto;">
 	<script src = "jquery.min.js"></script>
   <script src=script.js></script>
   <div style="border-radius: 1%; color: white; text-align: center; background: url('footer_lodyas.png'); height: auto; width: 100vh; padding-bottom: 20px">
@@ -16,7 +16,7 @@ layout: default
 						I'm Jared.  I'm studying Electrical Engineering and Computer Science (EECS) at UC Berkeley.  I like <a href="/cs">making things</a>, challenging problems, algorithms, and Super Smash Bros.
 					</p>
 					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
-						I'm also a singer, guitarist, pianist, and amateur musicologist.  You can find my music blog, as well as my favorite bands, <a href="/music/">here</a>!  More words for the sake of testing the padding.
+						I'm also a singer, guitarist, pianist, and amateur musicologist.  You can find my music blog, as well as my favorite bands, <a href="/music/">here</a>! 
 					</p>
 					<p style="padding-left: 20vh; padding-right: 20vh; text-align: left">
 						You can find CS stuff I've done <a href="/cs">here</a> and my resume <a href="/resume/">here.</a>
