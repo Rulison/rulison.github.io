@@ -15,8 +15,8 @@
     <![endif]-->
   </head>
 
-  <body  >
-	<div id="everything" style="align: center; background: url('./berkeley.jpg'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; height: 100vh;">
+  <body  style="align: center; background: url('./berkeley.jpg'); background-size: 100% auto; background-repeat: no-repeat; background-attachment: fixed; height: 200vh;">
+	<div id="everything" >
     <nav style="opacity: 0.6" class="navbar navbar-default">
   		<div class="container-fluid">
     		<!-- Brand and toggle get grouped for better mobile display -->
@@ -33,7 +33,7 @@
     		<!-- Collect the nav links, forms, and other content for toggling -->
     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       			<ul class="nav navbar-nav">
-        			<li class="active"><a href="#">Music Blog <span class="sr-only">(current)</span></a></li>
+        			<li><a href="#">Music Blog <span class="sr-only">(current)</span></a></li>
         			<li><a href="/cs/">CS Portfolio</a></li>
 							<li><a href="/resume/">Resume</a></li>
 							<li><a href="mailto:rulison@berkeley.edu">Email</a></li>

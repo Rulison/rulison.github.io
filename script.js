@@ -26,7 +26,7 @@ $(document).ready(function() {
 		$("#me-about-text").hide(500);
 	});*/
 	$("#contact").mouseenter(function() {
-		thirdExpanded = true;
+		//thirdExpanded = true;
 		$("#contact-specifics").show(500);
 		if (firstExpanded && secondExpanded && thirdExpanded)
 			resizeBackground();
@@ -37,6 +37,7 @@ $(document).ready(function() {
 	});
 
 	function resizeBackground() {
-		$("#everything").css("height", "auto");
+		$("#everything").css("height", "200%");
+		$("#everything").css("width", "max");
 	}
 });
