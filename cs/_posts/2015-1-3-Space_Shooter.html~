@@ -61,7 +61,7 @@ layout: default
 						break;
 					}
 				});
-				u.initPlugin(jQuery("#unityPlayer")[0], "Space_Shooter.unity3d");
+				u.initPlugin(jQuery("#unityPlayer")[0], "https://rulison.github.com/unity/Space_Shooter.unity3d");
 			});
 		-->
 		</script>

@@ -1,3 +1,4 @@
+<script src="https://rulison.github.io/jquery.min.js"></script>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,9 +29,9 @@
     		<!-- Collect the nav links, forms, and other content for toggling -->
     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       			<ul class="nav navbar-nav">
-        			<li><a href="#">Music Blog <span class="sr-only">(current)</span></a></li>
-        			<li><a href="/cs/">CS Blog</a></li>
-							<li><a href="/resume/">CS Portfolio and Resume</a></li>
+        			<li id="music-header"><a href="/music/">Music Blog <span class="sr-only">(current)</span></a></li>
+        			<li id="cs-header"><a href="/cs/">CS Blog</a></li>
+							<li id="resume-header"><a href="/resume/">CS Portfolio and Resume</a></li>
 
       			</ul>
   	        <ul class="nav navbar-nav navbar-right">
@@ -51,7 +52,61 @@
 
 <div class="row-fluid">
     <div class="col-md-12">
-        
+        <!-- music index -->
+<div style="border-radius: 1%; color: white; background: url('../images/footer_lodyas.png'); height: 100vh;  padding-bottom: 20px">
+	<h1 style="padding-top: 20px;  text-align: center">Musical Elitism</h1>
+	<p style="padding-left: 20px; text-align: center"> This will eventually have pop song reviews as well as maybe covers by friends and me! </p>
+	
+	<div style="padding-left: 20px; " class="row">
+	  <div class="col-md-4">
+	    <h2>Katy</h2>
+	    <h4>02 November 2015</h4>
+	  </div>
+		<div class="col-md-8">
+			<p><p>Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit ac nisi mattis mollis tempus id nulla. In varius fermentum posuere. Vivamus suscipit accumsan arcu ac...</p>
+			<p>
+	      <a href="/music/2015/11/02/katy%20(copy)/">Read Post</a>
+	    </p>
+		</div>
+	</div>
+	<hr style="border-top: 1px solid #BABABA">
+	
+	<div style="padding-left: 20px; " class="row">
+	  <div class="col-md-4">
+	    <h2>Perry</h2>
+	    <h4>01 November 2015</h4>
+	  </div>
+		<div class="col-md-8">
+			<p><p>Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit ac nisi mattis mollis tempus id nulla. In varius fermentum posuere. Vivamus suscipit accumsan arcu ac...</p>
+			<p>
+	      <a href="/music/2015/11/01/perry/">Read Post</a>
+	    </p>
+		</div>
+	</div>
+	<hr style="border-top: 1px solid #BABABA">
+	
+	<div style="padding-left: 20px; " class="row">
+	  <div class="col-md-4">
+	    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+	    <h4>08 March 2013</h4>
+	  </div>
+		<div class="col-md-8">
+			<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a...</p>
+			<p>
+	      <a href="/music/2013/03/08/best-spring-recipies/">Read Post</a>
+	    </p>
+		</div>
+	</div>
+	<hr style="border-top: 1px solid #BABABA">
+	
+
+</div>
+<script>
+	$(document).ready(function() {
+		$("#music-header").addClass("active");
+	});
+</script>
+
     </div>
 </div>
     </div>

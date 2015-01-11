@@ -61,7 +61,7 @@ layout: default
 						break;
 					}
 				});
-				u.initPlugin(jQuery("#unityPlayer")[0], "Builds.unity3d");
+				u.initPlugin(jQuery("#unityPlayer")[0], "https://rulison.github.com/unity/Builds.unity3d");
 			});
 		-->
 		</script>

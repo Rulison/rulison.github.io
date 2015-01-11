@@ -1,3 +1,29 @@
 ---
 layout: default
 ---
+<!-- music index -->
+<div style="border-radius: 1%; color: white; background: url('../images/footer_lodyas.png'); height: 100vh;  padding-bottom: 20px">
+	<h1 style="padding-top: 20px;  text-align: center">Musical Elitism</h1>
+	<p style="padding-left: 20px; text-align: center"> This will eventually have pop song reviews as well as maybe covers by friends and me! </p>
+	{% for post in site.categories.music limit: 10 %}
+	<div style="padding-left: 20px; " class="row">
+	  <div class="col-md-4">
+	    <h2>{{ post.title }}</h2>
+	    <h4>{{ post.date | date_to_long_string }}</h4>
+	  </div>
+		<div class="col-md-8">
+			<p>{{post.content | truncatewords: 30 }}</p>
+			<p>
+	      <a href="{{ post.url }}">Read Post</a>
+	    </p>
+		</div>
+	</div>
+	<hr style="border-top: 1px solid #BABABA">
+	{% endfor %}
+
+</div>
+<script>
+	$(document).ready(function() {
+		$("#music-header").addClass("active");
+	});
+</script>
