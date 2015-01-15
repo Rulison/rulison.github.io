@@ -1,15 +1,15 @@
+<script src="https://rulison.github.io/jquery.min.js"></script>
 {% include header.html %}
-
-<div class="row-fluid">
-  <div class="col-md-8">
-    <h1>{{ page.title }}</h1>
-    <p class="muted">{{ page.date | date_to_long_string }}</p>
-
+<div style="border-radius: 1%; color: white; text-align: center; background: url('https://rulison.github.io/images/footer_lodyas.png'); height: auto;  padding: 20px">
+<div class="row">
+  <div class="col-md-12">
+    <div style="text-align:center">
+      <h1>{{ page.title }}</h1>
+      <p class="muted">{{ page.date | date_to_long_string }}</p>
+    </div>
     {{ content }}
   </div>
-  <div class="col-md-4">
-    {% include sidebar.html %}
-  </div>
-</div>
 
+</div>
+</div>
 {% include footer.html %}

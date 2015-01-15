@@ -4,7 +4,7 @@ layout: default
 <!-- CS Blogs index -->
 <div style="border-radius: 1%; color: white; background: url('../images/footer_lodyas.png'); height: 100vh;  padding-bottom: 20px">
 	<h1 style="padding-top: 20px;  text-align: center">Recent CS Projects</h1>
-	<p style="padding-left: 20px; text-align: center"> This is a blog-style record of recent projects.  For a more in-depth look at my skills, please check out my <a href="/resume>"> resume!</a> </p>
+	<p style="padding-left: 20px; text-align: center"> This is a blog-style record of recent projects.  For a more in-depth look at my skills, please check out my <a href="/resume/"> resume!</a> </p>
 	{% for post in site.categories.cs limit: 10 %}
 	<div style="padding-left: 20px; " class="row">
 	  <div class="col-md-4">
@@ -24,6 +24,6 @@ layout: default
 </div>
 <script>
 	$(document).ready(function() {
-		$("cs-header").addClass("active");
+		$("#cs-header").addClass("active");
 	});
 </script>
