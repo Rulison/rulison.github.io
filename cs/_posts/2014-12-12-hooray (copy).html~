@@ -1,11 +1,15 @@
 ---
 title: Roll-a-ball
-layout: default
+layout: post
 ---
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+			<p>This is a physicsi engine demonstration built in Unity from a tutorial.  It's really cool, but can be difficult to play in your browser: </p>
+			<ul>Linux: You cannot play this game in Linux.  Terrible, I know, but it's Unity's fault not mine. </ul>
+			<ul>Windows: You'll probably have to give permissions to the page to let it run the plug-in.  If you're in Chrome, a little shield icon will appear on the top right of your window. </ul>
+			<ul>Mac: I think it will ask you to download a plugin.  Download it, and you should be good to go. </ul>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Unity Web Player | Roll-a-ball</title>
 		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
