@@ -3,8 +3,8 @@ layout: default
 ---
 <div >
 
-	<script src = "jquery.min.js"></script>
-  <script src=script.js></script>
+  <script src = "jquery.min.js"></script>
+  <script src = "script.js"></script>
 
   <div style="border-radius: 1%; color: white; text-align: center; background: url('images/footer_lodyas.png'); height: auto;  padding-bottom: 20px">
 
@@ -49,16 +49,16 @@ layout: default
 				<h2>Contact Me</h2>
 				<p id="contact-specifics" style="display: none; padding-bottom: 20px; padding-left: 20vh; padding-right: 20vh; text-align: center">
 					<a  href="http://www.facebook.com/TheRulison">
-						<img src="facebook24.png">
+						<img src="images/facebook24.png">
 					</a>
 					<a href="https://github.com/Rulison">
-						<img src="github19.png">
+						<img src="images/github19.png">
 					</a>
 					<a href="http://www.linkedin.com/in/rulison">
-						<img src="linkedin12.png">
+						<img src="images/linkedin12.png">
 					</a>
 					<a href="mailto:rulison@berkeley.edu">
-						<img src="email20.png">
+						<img src="images/email20.png">
 					</a>
 				</p>
 			</div>
