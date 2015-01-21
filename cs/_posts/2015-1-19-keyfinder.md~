@@ -1,0 +1,9 @@
+---
+title: KeyFinder
+layout: post
+---
+
+<textarea class="KeyFinder" rows="30" cols="100">
+Paste chords/lyrics here!
+</textarea>
+<script src="https://rulison.github.io/js/KeyFinder.js"></script>
