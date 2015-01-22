@@ -1,17 +1,28 @@
-document.addEventListener('DOMContentLoaded', function () {
-	var textArea = document.getElementsByClassName("KeyFinder");
-	var text = textArea.value;
-	var key = getKey(text);
-}
-
 function getKey(text) {
-	var noteCounts = [] //a=0, bb=1, b=2, . . . , 
+
+	var noteCounts = {};
+	noteCounts["a"] = 0;
+	noteCounts["bb"] = 0;
+	noteCounts["b"] = 0;
+	noteCounts["c"] = 0;
+	noteCounts["db"] = 0;
+	noteCounts["d"] = 0;
+	noteCounts["eb"] = 0;
+	noteCounts["e"] = 0;
+	noteCounts["f"] = 0;
+	noteCounts["gb"] = 0;
+	noteCounts["g"] = 0;
+	noteCounts["ab"] = 0;
+
 	for (index = 0; index < 12; index++) {
 		noteCounts[index] = 0;
 	}
 	var wordsArray = text.split(" ");
 	for (i = 0;i < wordsArray.length; i++) {
 		var notesArray = getNotes(wordsArray[i]);
+		for (j = 0;j < notesArray.length; j++) {
+			noteCounts[notesArray[j]] += 1;
+		}
 	}
 }
 
@@ -30,9 +41,8 @@ CHORD_MAP["Gb"] = ["gb", "bb", "db"];
 CHORD_MAP["G"] = ["g", "b", "d"];
 CHORD_MAP["Ab"] = ["ab", "c", "eb"];
 
-}
 function moveUp(note, halfSteps) {
-	if (halfSteps < 0): {
+	if (halfSteps < 0) {
 		halfSteps = 12 + halfSteps;
 	}
 	var noteIndex = NOTES.indexOf(note);
@@ -45,3 +55,12 @@ function getNotes(chord) {
 	}
 
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+	var textArea = document.getElementsByClassName("KeyFinder");
+	var text = textArea.value;
+	var key = getKey(text);
+
+}
+
