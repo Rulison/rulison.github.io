@@ -2,7 +2,7 @@
 title: KeyFinder
 layout: post
 ---
-
+Working on this, currently porting from Java to Javascript.  Very not easy.
 <textarea class="KeyFinder" rows="30" cols="100">
 Paste chords/lyrics here!
 </textarea>

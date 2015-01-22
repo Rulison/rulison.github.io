@@ -26,8 +26,8 @@ function getKey(text) {
 	}
 }
 
-var NOTES = ["a", "bb", "b", "c", "db", "d", "eb", "e", "f", "gb", "g", "ab"]
-var CHORD_MAP = {}
+var NOTES = ["a", "bb", "b", "c", "db", "d", "eb", "e", "f", "gb", "g", "ab"];
+var CHORD_MAP = {};
 CHORD_MAP["A"] = ["a", "db", "e"];
 CHORD_MAP["Bb"] = ["bb", "d", "f"];
 CHORD_MAP["B"] = ["b", "eb", "gb"];
@@ -51,7 +51,7 @@ function moveUp(note, halfSteps) {
 
 function getNotes(chord) {
 	if (chord.length == 1) {
-		return CHORD_MAP[chord]
+		return CHORD_MAP[chord];
 	}
 
 }
@@ -62,5 +62,5 @@ document.addEventListener('DOMContentLoaded', function () {
 	var text = textArea.value;
 	var key = getKey(text);
 
-}
+});
 

@@ -1,9 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-	var textArea = document.getElementsByClassName("KeyFinder");
-	var text = textArea.value;
-	var key = getKey(text);
-
-}
 function getKey(text) {
 
 	var noteCounts = {};
@@ -61,4 +55,12 @@ function getNotes(chord) {
 	}
 
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+	var textArea = document.getElementsByClassName("KeyFinder");
+	var text = textArea.value;
+	var key = getKey(text);
+
+});
 
