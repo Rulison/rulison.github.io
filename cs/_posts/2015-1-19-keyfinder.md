@@ -3,7 +3,9 @@ title: KeyFinder
 layout: post
 ---
 Working on this, currently porting from Java to Javascript.  Very not easy.
-<textarea class="KeyFinder" rows="30" cols="50">
-Paste chords/lyrics here!
+<textarea style="color: black" class="KeyFinder" rows="30" cols="50">
+Paste lyrics/chord here
 </textarea>
-<script src="https://rulison.github.io/js/KeyFinder.js"></script>
+<button style = "color: black" class="KeyFinderButton">Find Key</button>
+<p> Key is: <p class = "KeyFinderKey"> </p> </p>
+<script src="../../../../../js/KeyFinder.js"></script>

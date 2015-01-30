@@ -1,5 +1,7 @@
 function getKey(text) {
-
+	if (typeof(text) === undefined) {
+		return;
+	}
 	var noteCounts = {};
 	noteCounts["a"] = 0;
 	noteCounts["bb"] = 0;
@@ -17,12 +19,17 @@ function getKey(text) {
 	for (index = 0; index < 12; index++) {
 		noteCounts[index] = 0;
 	}
+	console.log("shouldn't say this");
 	var wordsArray = text.split(" ");
 	for (i = 0;i < wordsArray.length; i++) {
 		var notesArray = getNotes(wordsArray[i]);
 		for (j = 0;j < notesArray.length; j++) {
 			noteCounts[notesArray[j]] += 1;
 		}
+	}
+	
+	for(int i=0;i<noteCounts.keys().length();i++) {
+
 	}
 }
 
@@ -53,14 +60,22 @@ function getNotes(chord) {
 	if (chord.length == 1) {
 		return CHORD_MAP[chord];
 	}
-
+	return [];
 }
 
 
 document.addEventListener('DOMContentLoaded', function () {
-	var textArea = document.getElementsByClassName("KeyFinder");
-	var text = textArea.value;
-	var key = getKey(text);
+	var button = document.getElementsByClassName("KeyFinderButton")[0];
+	button.addEventListener('click', function() {
+		var textArea = document.getElementsByClassName("KeyFinder")[0];
+		var text = textArea.value;
+		var key = getKey(text);
+		var keyText = document.getElementsByClassName("KeyFinderKey")[0];
+		keyText.innerHTML = key;
+	});
+
 
 });
+
+
 
