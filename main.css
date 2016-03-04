@@ -7,11 +7,13 @@ background-color
 background-image
 */
 
-#dude {
-	font-size: 100px;
-	font-family: 'Papyrus';
-}
+
 
 .warfare {
 	font-family: 'Lato';
+}
+
+#dude {
+	font-size: 100px;
+	font-family: 'Papyrus';
 }
