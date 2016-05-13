@@ -6,15 +6,229 @@ font family
 background-color
 background-image
 */
+body {
+	background-color: #dddddb;
+	font-family: Lato;
+}
+.row {
+	height: 300px;
+	display: block;
+	overflow: hidden;
+}
+.top-half {
+	height: 150px;
+	overflow: hidden;
+}
 
+#katy {
+	width: 100%;
+	display: inline;
+	margin: 0;
+}
+#rainbows {
+	display: inline;
+	margin: 0;
+	float:left;
+	width: 100%;
+}
+#face {
+	width: 110%;
+	margin: -40px 0px 0px 0px;
+	display: inline;
+}
+#doggy {
+	height: 300px;
+	margin: 0;
+	display: inline;
+}
+#melee {
+	display: inline;
+	margin: 0;
+	float:left;
+	height: 300px;
+}
+#contact {
+	display: inline;
+	margin: 0;
+	float:left;
+	height: 350px;
+}
+#resume {
+	display: inline;
+	margin: 0;
+	float:left;
+	height: 300px;
+	background-color: red;
+	margin-left: -10%;
+}
+#ieee {
+	display: inline;
+	margin: 0;
+	float:left;
+	height: 300px;
+	margin-left: -30px;
 
+}
+#choir {
+	display: inline;
+	margin: 0;
+	float:left;
+	height: 300px;
+	margin-left: -140%;
+}
+#covers {
+	display: inline;
+	margin: 0;
+	float:left;
+	height: 350px;
+}
+#haifa {
+	display: inline;
+	margin: 0;
+	margin-top: -20%;
+	margin-left: -20%;
+	float:left;
+	width: 120%;
+}
+.icon {
+	display: inline;
+	margin: 0;
+	margin-left: 25%;
+	float:left;
+	height: 70px;
+}
 
-.warfare {
-	font-family: 'Lato';
+.over-text {
+	background-color: #111728;
+	color: #ffffff;
+}
+
+.pop {
+	position: absolute;
+	top: 160px;
+	left: 20px;
+	z-index: 1;
+	padding: 5px;
+
+}
+.vinyl {
+	position: absolute;
+	top: 310px;
+	left: 20px;
+	z-index: 1;
+	padding: 5px;
+}
+.name-desc {
+	position: absolute;
+	top: 230px;
+	left: 35%;
+	z-index: 1;
+	padding: 5px;
+	/* background-color: #294b77;*/
+	color: #ffffff;
+	margin-bottom: 0;
+}
+.eecs {
+	position: absolute;
+	top: 320px;
+	left: 35%;
+	z-index: 1;
+	padding-left: 5px;
+	/* background-color: #294b77;*/
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.intro {
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.ML {
+	position: absolute;
+	top: 600px;
+	left: 20px;
+	z-index: 1;
+	padding: 5px;
+}
+.smash {
+	position: absolute;
+	top: 900px;
+	left: 20px;
+	z-index: 1;
+	padding: 5px;
+}
+.ieee {
+	position: absolute;
+	top: 900px;
+	left: 20%;
+	z-index: 1;
+	padding: 5px;
+}
+.choir {
+	position: absolute;
+	top: 900px;
+	left: 52%;
+	z-index: 1;
+	padding: 5px;
+}
+.resume {
+	position: absolute;
+	top: 900px;
+	left: 68%;
+	z-index: 1;
+	padding: 5px;
+}
+
+.grid-holder {
+	overflow: hidden;
+	height: 300px;
+}
+
+.third {
+	height: 100px;
+}
+
+.middle-desc {
 	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 40px;
+	vertical-align: middle;
 }
 
-#dude {
-	font-size: 100px;
-	font-family: 'Papyrus';
+.covers {
+	text-align: center;
+	position: absolute;
+	top: 600px;
+	left: 75%;
+	padding: 5px;
 }
+
+.audio {
+	position: absolute;
+	top: 450px;
+	left: 75%;
+	z-index: 1;
+	padding: 5px;
+	width: 250px;
+}
+.center {
+	position: absolute;
+	top: 300px;
+	left: 33%;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.hidden {
+	visibility: hidden;
+}
+.unhidden {
+	visibility: visible;
+}
+.selected {
+	opacity: 0.8;
+}
+

@@ -1,0 +1,62 @@
+/*
+examples
+font-size, font inheritance
+color, rgb v rgba v hex
+font family
+background-color
+background-image
+*/
+body {
+	background-color: #dddddb;
+	font-family: Lato;
+}
+audio {
+	padding-top: 20px;
+	padding-left: 20px;
+	display: block;
+	width: 500px;
+}
+.top {
+	background-color: #89abad;
+	height: 200px;
+}
+.title {
+	padding-left: 20px;
+	padding-top: 140px;
+	color: #ffdddd;
+	font-size: 36px;
+}
+.entry {
+	display: block;
+	height: 200px;
+}
+.first {
+	background-color: #111728;
+}
+.second {
+	background-color: #8397a7;
+}
+.third {
+	background-color: #294b77;
+}
+.song {
+	color: #ffdddd;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: auto;
+	display: inline;
+}
+.artist {
+	color: #ffdddd;
+	font-size: 24px;
+	width: auto;
+	display: inline;
+}
+.description {
+	color: #ffdddd;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}

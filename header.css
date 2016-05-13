@@ -1,0 +1,25 @@
+.row {
+	
+}
+.header {
+	height: 65px;
+	background-color: #ffffff;
+	color: #294b77;
+}
+.header-entry {
+	display: inline;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 17px;
+	color: #294b77;
+}
+.header-hover {
+	color: #ffffff;
+	background-color: #294b77;
+}
+.header-nohover {
+	background-color: #ffffff;
+	color: #294b77;
+}

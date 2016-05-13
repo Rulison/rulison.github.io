@@ -1,18 +1,157 @@
-<!-- a, p, div, head, body, html, img -->
-
 <!DOCTYPE html>
 <html>
   <head>
-	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin%2Clatin-ext' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin%2Clatin-ext' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="script.js"></script>
-  	<title> Jrod ROdison </title>
+  	
+    <link rel="stylesheet" type="text/css" href="Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Skeleton-2.0.4/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  	<script src="script.js"></script>
+    <script src="header.js"></script>
+  	<title> THE RAINDROPS THE RAINDROPS THE RAINDROPS THE RAINDROPS </title>
   </head>
   <body>
-  	<p class="warfare">Oh my name? You wanna know my name?  Well here it comes here it is.  My name is </p>
-  	<div><b id="dude">CHERRY DUDE</b></div>
+    <div class="container">
+      <div class="row header">
+        <a href="#">
+          <div class="one column header-entry">Home</div>
+        </a>
+        <a href="about/index.html">
+          <div class="one column header-entry">About</div>
+        </a>
+        <a href="covers/index.html">
+          <div class="one column header-entry">Covers</div>
+        </a>
+        <a href="pop/index.html">
+          <div class="one column header-entry">Pop</div>
+        </a>
+        <a href="vinyl/index.html">
+          <div class="one column header-entry">Vinyl</div>
+        </a>
+        <a href="resume/JaredRulisonResume4-14-16.pdf">
+          <div class="one column header-entry">Resume</div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <div class="top-half overlay">
+            <img id="katy" src="images/katy.jpg">
+            <div class="pop hidden over-text"> Pop Analyses </div>
+          </div>
+          <div class="bottom-half overlay">
+            <img id="rainbows" src="images/rainbows.jpg">
+            <div class="vinyl hidden over-text"> Vinyl </div>
+          </div>
+        </div>
+        <div class="eight columns">
+          <div class="all-row overlay">
+            <img id="face" src="images/face.jpg">
+            <div class="name-desc">
+              <p style="font-size: 38px; background-color: #294b77;" class="intro"> Jared Rulison </p>
+              <p style="padding-bottom: 5px; margin-right: 0; background-color: #294b77; display:inline-block" class="intro"> UC Berkeley </p>
+            </div>
+            <div class="eecs">
+              <p style="background-color: #294b77; display:inline-block" class="intro"> EECS, Class of 2017 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div style="overflow: hidden;" class="three columns">
+          <a href="CS_280_Final_Report.pdf" class="grid-holder overlay">
+            <img id="doggy" src="images/doggy.jpg">
+            <p class="ML hidden over-text"> Machine Learning </p>
+          </a>
+        </div>
+        <div style="overflow: hidden" class="six columns">
+          <img id="haifa" src="images/haifa.jpg">
+          <div class="center overlay">
+            <div class="third">
+              <p class="middle-desc"> Software Engineer </p>
+            </div>
+            <div class="third">
+              <p class="middle-desc"> Musician </p>
+            </div>
+            <div class="third">
+              <p class="middle-desc"> Cool Dude </p>
+            </div>
+          </div>
+        </div>
+        <div class="three columns">
+          <a href="./covers/index.html" class="overlay">
+              <img id="covers" src="images/covers.jpg">
+              <p class="covers hidden over-text">Covers</p>
+              <audio class="audio" controls>
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+           
+          </a> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <div class="grid-holder overlay">
+            <a href="https://www.youtube.com/watch?v=jX9hbbA-WP4" class="overlay">
+              <img id="melee" src="images/melee.jpg">
+              <p class="smash hidden over-text"> Smash </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="four columns">
+          <div class="grid-holder overlay">
+            <a href="https://ieee.berkeley.edu" class="overlay">
+              <img id="ieee" src="images/ieee.jpg">
+              <p class="ieee hidden over-text"> IEEE President </p>
+            </a>
+          </div>
+        </div>
+        <div class="two columns">
+          <div class="grid-holder overlay">
+            <a href="http://perfectfifth.berkeley.edu" class="overlay">
+              <img id="choir" src="images/choir.jpg">
+              <p class="choir hidden over-text"> Choir </p>
+            </a>
+          </div>
+        </div>
+        <div class="two columns">
+          <div class="grid-holder overlay">
+            <a href="resume/resume.pdf" class="overlay">
+              <img id="resume" src="images/resume.jpg">
+              <p class="resume hidden over-text"> Resume </p>
+            </a>
+          </div>
+        </div>
+        <div class="two columns overlay">
+          <img id="contact" src="images/contact.jpg">
+          <div style="position: absolute; top: 670px; left: 85%; padding-top: 10px" class="hidden">
+
+            <a  href="http://www.facebook.com/TheRulison">
+              <img class="icon" src="images/facebook24.png">
+            </a>
+
+
+            <a href="https://github.com/Rulison">
+              <img class="icon" src="images/github19.png">
+            </a>
+
+
+            <a href="http://www.linkedin.com/in/rulison">
+              <img class="icon" src="images/linkedin12.png">
+            </a>
+
+
+            <a href="mailto:rulison@berkeley.edu">
+              <img class="icon" src="images/email20.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
