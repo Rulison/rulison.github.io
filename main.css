@@ -202,7 +202,14 @@ body {
 	text-align: center;
 	position: absolute;
 	top: 600px;
-	left: 75%;
+	left: 76%;
+	padding: 5px;
+}
+.song {
+	text-align: center;
+	position: absolute;
+	top: 500px;
+	left: 76%;
 	padding: 5px;
 }
 
