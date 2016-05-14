@@ -18,13 +18,16 @@ audio {
 }
 .top {
 	background-color: #89abad;
-	height: 200px;
+	height: auto;
 }
 .title {
 	padding-left: 20px;
 	padding-top: 140px;
 	color: #ffffff;
 	font-size: 36px;
+}
+.album {
+	width: 110%;
 }
 .entry {
 	display: block;
@@ -35,9 +38,19 @@ audio {
 }
 .second {
 	background-color: #8397a7;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 24px;
+	color: #ffffff;
 }
 .third {
 	background-color: #294b77;
+}
+.frame {
+	height: 250px;
+	overflow: hidden;
+	display: inline;
 }
 .song {
 	color: #ffffff;
