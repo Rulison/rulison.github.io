@@ -31,8 +31,11 @@ audio {
 	font-size: 172px;
 	text-align: center;
 	font-family:"RoadGeek";
+	overflow: hidden;
 }
-
+.title-holder {
+	margin: auto;
+}
 
 
 #a {
@@ -64,6 +67,7 @@ audio {
 }
 .letter {
 	display: inline-block;
+	float: left;
 }
 .entry {
 	display: block;
@@ -87,6 +91,23 @@ audio {
 	height: 250px;
 	overflow: hidden;
 	display: inline;
+}
+@media (min-width: 828px) {
+	.frame {
+		width: 25%;
+		height: 250px;
+		overflow: hidden;
+		display: inline;
+	}
+}
+.one-height {
+	height: 450px;
+}
+.two-height {
+	height: 300px;
+}
+.three-height {
+	height: 250px;
 }
 .song {
 	color: #ffffff;

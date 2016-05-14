@@ -22,8 +22,6 @@ function processNext(index, maxIndex, releases, baseURL, keys) {
 }
 
 $(document).ready(function() {
-    //var collection = $.get( "https://api.discogs.com/users/rulison/collection/folders/0/releases", function() {
-    
     var collection = $.ajax( {url:"https://api.discogs.com/users/rulison/collection/folders/0/releases?page=1&per_page=100",
                              type: "get",
                              data:{sort:"added", sort_order:"desc"}, success:function() {  
@@ -40,4 +38,5 @@ $(document).ready(function() {
     .always(function() {
 
     });
+
 });
