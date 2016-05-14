@@ -17,17 +17,45 @@ audio {
 	width: 500px;
 }
 .top {
-	background-color: #89abad;
-	height: auto;
+	background-color: #000000;
+	height: 300px;
 }
 .title {
 	padding-left: 20px;
-	padding-top: 140px;
+	padding-top: 20px;
 	color: #ffffff;
-	font-size: 36px;
+	font-size: 172px;
+	text-align: center;
+}
+#a {
+	color: #f5ec48;
+}
+#b {
+	color: #4385c5;
+}
+#c {
+	color: #f16323;
+}
+#e {
+	color: #45b64a;
+}
+#f {
+	color: #ecb31d;
+}
+#g {
+	color: #ec2427;
+}
+#h {
+	color: #a3dde8;
+}
+#i {
+	color: #0163a4;
 }
 .album {
 	width: 110%;
+}
+.letter {
+	display: inline-block;
 }
 .entry {
 	display: block;
