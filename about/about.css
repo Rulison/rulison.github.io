@@ -1,0 +1,98 @@
+/*
+examples
+font-size, font inheritance
+color, rgb v rgba v hex
+font family
+background-color
+background-image
+*/
+body {
+	background-color: #dddddb;
+	font-family: Lato;
+	color: #ffffff;
+}
+audio {
+	padding-top: 20px;
+	padding-left: 20px;
+	display: block;
+	width: 500px;
+}
+#face {
+	width: 100%;
+}
+.top {
+	background-color: #89abad;
+	height: 400px;
+	overflow: hidden;
+}
+.desc {
+	margin: 0;
+	background-color: #111728;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+.coursework {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.skills {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.experience {
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 30px;
+	padding-right: 20px;
+}
+.main {
+	/*position: absolute;
+	top: 200px;
+	left: 20%;*/
+	padding-top: 10px;
+	padding-left: 20px;
+	width: 100%;
+}
+.title {
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 140px;
+	color: #ffffff;
+	font-size: 36px;
+}
+.entry {
+	display: block;
+	height: 470px;
+}
+.first {
+	background-color: #111728;
+}
+.second {
+	background-color: #8397a7;
+}
+.third {
+	background-color: #294b77;
+}
+.song {
+	color: #ffffff;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: auto;
+	display: inline;
+}
+.artist {
+	color: #ffffff;
+	font-size: 24px;
+	width: auto;
+	display: inline;
+}
+.description {
+	color: #ffffff;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
