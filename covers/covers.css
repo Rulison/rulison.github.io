@@ -28,7 +28,7 @@ audio {
 }
 .entry {
 	display: block;
-	height: 200px;
+	height: auto;
 }
 .first {
 	background-color: #111728;
